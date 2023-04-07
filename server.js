@@ -5,9 +5,9 @@ const myDB = require('./connection');
 const fccTesting = require('./freeCodeCamp/fcctesting.js');
 const session = require('express-session');
 const passport = require('passport');
-const secret = process.env['SESSION_SECRET'];
 const routes = require('./routes.js');
 const auth = require('./auth.js');
+const secret = process.env['SESSION_SECRET'];
 
 const app = express();
 
